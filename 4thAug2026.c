@@ -378,7 +378,7 @@ int main(){
 
 #include<stdio.h>
 int main(){
-    int row,i,j,k,n;
+    int row,i,j,n;
     int num=1;
     printf("Enter no. of rows: ");
     scanf("%d",&row);
@@ -388,7 +388,6 @@ int main(){
         }
         for(j=0;j<=i;j++){
             printf("%d ",num);
-
             num=num*(i-j)/(j+1);
         }
         printf("\n");
